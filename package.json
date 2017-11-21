@@ -1,37 +1,16 @@
 {
-  "name": "chequemicode",
-  "version": "0.0.1",
+  "name": "google-vision-expo-test",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
   "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
-  },
+  "script": "start",
+  "main": "node_modules/expo/AppEntry.js",
   "dependencies": {
-    "@google-cloud/storage": "^1.4.0",
-    "@shoutem/ui": "^0.21.3",
-    "gl-react": "^3.13.0",
-    "gl-react-native": "^3.13.0",
-    "mobile-center": "^0.11.2",
-    "mobile-center-analytics": "^0.11.2",
-    "mobile-center-crashes": "^0.11.2",
-    "prop-types": "^15.6.0",
+    "expo": "^20.0.0",
+    "firebase": "^4.6.2",
+    "google-cloud": "^0.57.0",
     "react": "16.0.0-alpha.12",
-    "react-dom": "^15.6.2",
-    "react-native": "0.49.5",
-    "react-native-camera": "^0.6.0",
-    "react-native-swiper": "^1.5.13"
-  },
-  "devDependencies": {
-    "babel-jest": "21.2.0",
-    "babel-preset-react-native": "4.0.0",
-    "jest": "21.2.1",
-    "react-test-renderer": "16.0.0-beta.5"
-  },
-  "jest": {
-    "preset": "react-native"
-  },
-  "main": "index.js",
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "react-native": "https://github.com/expo/react-native/archive/sdk-20.0.0.tar.gz"
+  }
 }
