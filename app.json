@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "google-vision-expo-test",
+    "name": "ChequeMiCode",
     "description": "An empty new project",
-    "slug": "google-vision-expo-test",
+    "slug": "ChequeMiCode",
     "privacy": "public",
     "sdkVersion": "20.0.0",
     "version": "1.0.0",
